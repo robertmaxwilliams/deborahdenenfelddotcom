@@ -1,11 +1,11 @@
 /*
  * jQuery Cycle Lite Plugin
- * http://malsup.com/jquery/cycle/lite/
+ * https://malsup.com/jquery/cycle/lite/
  * Copyright (c) 2008 M. Alsup
  * Version: 1.0 (06/08/2008)
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
  * Requires: jQuery v1.2.3 or later
  */
 ;(function($) {
@@ -178,7 +178,7 @@ $.fn.cycle.transitions = {
 
 $.fn.cycle.ver = function() { return ver; };
 
-// @see: http://malsup.com/jquery/cycle/lite/
+// @see: https://malsup.com/jquery/cycle/lite/
 $.fn.cycle.defaults = {
     timeout:       4000, 
     speed:         1000, 

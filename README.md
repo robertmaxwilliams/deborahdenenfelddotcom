@@ -5,11 +5,11 @@ It looks like some service didn't get started when the server started so now the
 
 Here is the web archive of it, the earliest version doesn't have the MySQL error message:
 
-[https://web.archive.org/web/*/http://www.deborahdenenfeld.com/](https://web.archive.org/web/*/http://www.deborahdenenfeld.com/)
+[https://web.archive.org/web/*/https://www.deborahdenenfeld.com/](https://web.archive.org/web/*/https://www.deborahdenenfeld.com/)
 
 But those should be pretty easy to clean up. Here's the wget command I used:
 
-` wget --recursive --level=inf --page-requisites --convert-links --html-extension -rH http://www.deborahdenenfeld.com/ `
+` wget --recursive --level=inf --page-requisites --convert-links --html-extension -rH https://www.deborahdenenfeld.com/ `
 
 **WARNING** don't use this command, it crawls the entire web and several other websites, oops. But it worked.
 
