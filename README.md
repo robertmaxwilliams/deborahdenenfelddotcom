@@ -3,9 +3,7 @@ Clone of website at that domain, since it is broken.
 
 It's hosted on github pages, and the domain is managed through godaddy. 
 
-To make changes, create a pull request or create an issue telling me to add you
-as a contributor.
-
+To make changes, create a pull request or create an issue telling me to add you as a contributor.
 
 Now live at: 
 `http://www.deborahdenenfeld.com/`
@@ -42,3 +40,27 @@ index.html
     about-deborah-denenfeld-dancer.html
 contact-deborah-denenfeld.html
 ```
+
+This page:
+
+`https://securitytrails.com/domain/deborahdenenfeld.com/history/a`
+
+Lists previous IP's attached to `deborahdenenfeld.com`, and it seems the original is 199.231.144.61 with HostMySite.
+Debora isn't able to access this page, nor does she have the source for it. I've tried to access it, but it seems that
+that IP address is defunct. That IP serves many websites, so you have to use the "Host" field in the header, this system
+is called "dynamic hosts".
+
+The following times out, as do all the websites listed [here](https://securitytrails.com/list/ip/199.231.144.61):
+
+`curl -v -L -H 'Host: deborahdenenfeld.com' 199.231.144.61`
+
+This means to access the server at `199.231.144.61` as if you had typed `deborahdenenfeld.com` into the address bar and
+a DNS lookup brought you to `199.231.144.61`.
+
+If you try it with the most recent IP:
+
+`curl -v -L -H 'Host: deborahdenenfeld.com' 184.168.131.241`
+
+It succeeds, at accessing the github version of the site. The original might still be on HostMySite somewhere, or on the
+original developer's machine. The version on the wayback machine doesn't have any more than what I have here.
+
