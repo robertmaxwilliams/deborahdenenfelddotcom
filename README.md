@@ -18,7 +18,11 @@ Here is the web archive of it, the earliest version doesn't have the MySQL error
 
 [https://web.archive.org/web/*/https://www.deborahdenenfeld.com/](https://web.archive.org/web/*/https://www.deborahdenenfeld.com/)
 
-This archive is missing some pages and images, here is a site map that lits pages with issues:
+This archive is missing some pages and images. I originally scraped the version that was hosted in a mysterious
+location, and didn't realize I had missed some pages and images. The Wayback Machine seems to be missing the same things
+that I am, perhaps some of these were missing on the original site as well? Not sure.
+
+Here is a site map that lits pages with issues:
 
 ```
 index.html
